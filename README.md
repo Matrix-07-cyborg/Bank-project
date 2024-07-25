@@ -1,13 +1,8 @@
-# Bank-project
+# Prodigy_DS_03
 
+# Decision Tree Classifier for Term Deposit Subscription Prediction:
+This project involves building a Decision Tree classifier to predict whether a customer will subscribe to a term deposit based on their demographic and behavioral data. The dataset used for this analysis is the Bank Marketing dataset from the UCI Machine Learning Repository.
 
-# Import Libraries
-pandas and numpy for data manipulation.
-train_test_split from sklearn.model_selection for splitting the dataset.
-DecisionTreeClassifier and plot_tree from sklearn.tree for the classifier and visualization.
-StandardScaler for feature scaling.
-accuracy_score, classification_report, and confusion_matrix from sklearn.metrics for evaluation.
-matplotlib.pyplot for plotting.
 
 # Conclusion of the Analysis
 In this comprehensive data analysis project, we aimed to predict whether a customer would subscribe to a term deposit based on their demographic and behavioral data using the Bank Marketing dataset. Here is a summary of our findings and conclusions:
@@ -24,3 +19,9 @@ Confusion Matrix: The confusion matrix provided a summary of the true positives,
 Decision Tree Structure: The visualization of the decision tree showed how the model splits the data based on different features. Each node in the tree represents a decision point based on a specific feature and threshold.
 Feature Importance: By examining the structure of the tree, it was clear which features were considered most important by the model. For instance, duration of the last contact might be a primary split feature, indicating its high importance.
 Model Complexity: The visualization also highlighted the complexity of the decision tree. A deeper tree with many nodes suggests a more complex model that might capture more details but could also be prone to overfitting.
+
+# Source:
+Sample Dateset :- https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
+
+
+
